@@ -1,0 +1,40 @@
+.rooms li {
+    color: blue;
+    cursor: pointer;
+}
+
+#chats {
+}
+    #chats .room {
+        border: 1px solid #ccc;
+        padding: 5px;
+        margin: 30px 0 0 0;
+    }
+    #chats h2 {
+        margin: 2px 0 5px 0;
+        font-weight: bold;
+    }
+
+#chats .username {
+        display: inline-block;
+        color: #d91f5a;
+        width: 100px;
+        font-weight: bold;
+    }
+    #chats .contextual-message {
+        text-align: center;
+        margin: 5px 5px 5px 5px;
+    }
+    #chats .text-muted {
+        opacity: .6;
+        font-style: italic;
+    }
+    #chats .text-danger {
+        color: #a94442;
+        font-weight: bold;
+    }
+    #chats .text-warning {
+        color: #DCAD5C;
+        font-weight: bold;
+        font-style: italic;
+    }
